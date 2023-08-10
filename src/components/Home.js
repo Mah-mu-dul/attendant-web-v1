@@ -14,7 +14,7 @@ const Home = () => {
                     <div className="lg:w-[300px] font-bold md:w-[250px] font-mono p-3 sm:w-full bg-[#b49a73de] min-h-[400px] rounded">
                         <h1 className='text-5xl   mt-3 mb-3'>Team Attendant</h1>
                         <p>We are a team from Independent University, Bangladesh (IUB), and we participate in International Space Related Robotics Competitions every year</p>
-                        <a href="/team"><button className='btn bg-accent mt-5 border-0 normal-case text-white  mx-auto hover:bg-[#fca267]'>The Team</button></a>
+                        <a href="/team"><button className='btn  bg-accent mt-5 border-0 normal-case text-white  mx-auto hover:bg-[#fca267]'>The Team</button></a>
                     </div>
                 </div>
 
