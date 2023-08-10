@@ -10,6 +10,7 @@ import nahid from '../images/team/nahid.jpg'
 import parveg from '../images/team/parveg.jpeg'
 import jaman from '../images/team/jaman.jpg'
 import mahmudul from '../images/team/mahmudul.jpg'
+import arabi from '../images/team/arabi.jpg'
 
 
 import { AiOutlineGithub } from 'react-icons/ai';
@@ -41,15 +42,29 @@ const Team = () => {
                 email: "shidujaman@iub.edu.bd",
                 linkedin: "https://www.linkedin.com/in/mohammad-shidujaman-phd-104a2848/",
                 website: "",
-                github: "https://github.com/parvezsultandipu",
+                github: "",
                 researchGate: "https://www.researchgate.net/profile/Mohammad-Shidujaman"
+            }
+
+        },
+        {
+            name: "Abul Al Arabi",
+            designaytion: <p > <span className='text-sm text-rose-500'>HCI and Robotics enthusiast</span> <br />College Station, Texas, United States</p>,
+            profile: arabi,
+            bio: <p>Hi, this is Abul Al Arabi. As a substance, I am a Human. Currently, I am a Ph.D. student at HCIED Lab, Texas A&M University, Department of CSE. My research interest is in the area of Human-Computer Interaction, Robotics, and ML. I completed my undergrad in EEE from Bangladesh University of Engineering and Technology (BUET). Previously, I was a research associate and adjunct faculty for robotics at Independent University Bangladesh, and lecturer at Northern University Bangladesh. Also, served as consultant and R&D engineer in different companies.
+            </p>,
+            contact: {
+                phone: "",
+                email: "abulalarabi@tamu.edu",
+                linkedin: "https://www.linkedin.com/in/abul-al-arabi/",
+                website: "http://abulalarabi.com/",
+                github: "https://github.com/abulalarabi/",
+                researchGate: "https://www.researchgate.net/profile/Abul-Al-Arabi"
             }
 
         }
     ]
-    const teamLeaders = [
 
-    ]
 
     const attendants = [
         {
@@ -348,6 +363,8 @@ Autonomous Navigation: Leveraging my Arduino coding skills, I contributed to the
         <>
             <section className='px-5 flex justify-evenly  gap-5 flex-wrap py-5'>
                 {/* Advisors  */}
+                <h1 className="text-xl font-bold text-center mt-10">Advisors</h1>
+
                 {
                     advisors.map((advisor, i) => <>
 

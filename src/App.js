@@ -11,7 +11,7 @@ import Error from './components/Error';
 
 function App() {
   return (
-    <div className='bg-[#bdc1ff56]'>
+    <div className='bg-[#bdc1ff56] mx-auto max-w-[1700px]'>
       <Navbar />
       <section className="h-16 "></section>
       <Routes>

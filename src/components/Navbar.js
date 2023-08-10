@@ -10,14 +10,14 @@ const Navbar = () => {
         <li className='text-xl'><a href='/contact'>Contact</a></li>
     </>
     return (
-        <section className="bg-[#edffd0d0] h-16 fixed w-full z-40">
+        <section className="bg-[#9aa0b3e3] h-16 fixed w-full max-w-[1700px] z-40">
             <div className="navbar p-0 ">
                 <div className="">
                     <div className="dropdown">
-                        <label tabIndex={0} className="btn btn-ghost lg:hidden">
+                        <label tabIndex={0} className="btn btn-ghost bg-[#9aa0b3e3] lg:hidden">
                             <RxHamburgerMenu />
                         </label>
-                        <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1]  p-2 shadow  rounded-box w-max">
+                        <ul tabIndex={0} className="menu bg-[#9aa0b3e3] ml-3  menu-sm dropdown-content mt-3 z-[1]  p-2 shadow  rounded-box w-max">
                             {navItems}
                         </ul>
                     </div>
