@@ -3,54 +3,55 @@ import jotirmoy from '../images/team/jotirmoy.jpeg'
 import fayad from '../images/team/fayad.jpg'
 import arno from '../images/team/arno.jpeg'
 import tunisha from '../images/team/tunisha.JPG'
+import ratul from '../images/team/ratul.JPG'
+import mehjabeen from '../images/team/mehjabeen.jpg'
+import Ferdous from '../images/team/Ferdous.png'
+import nahid from '../images/team/nahid.jpg'
+import parveg from '../images/team/parveg.jpeg'
+import jaman from '../images/team/jaman.jpg'
+import mahmudul from '../images/team/mahmudul.jpg'
 
 
-import { AiOutlineGithub, AiFillPhone } from 'react-icons/ai';
+import { AiOutlineGithub } from 'react-icons/ai';
+import { LiaResearchgate } from 'react-icons/lia';
 import { BiLogoGmail, BiLogoLinkedin } from 'react-icons/bi';
 
 const Team = () => {
     const advisors = [
         {
-            name: "robosanto",
-            designaytion: "Professor",
-            roel: "kichu ekta",
-            profile: "profile photo",
-            bio: `
-            "As an electrical engineering student, I have a strong foundation in various aspects of electronics and robotics. I have also gained expertise in arduino coding, soldering, PCB designing, mechanical chassis designing which have equipped me with a versatile skill set essential for contributing to the Mars rover mission.
+            name: "Mohammad Shidujaman, PhD",
+            designaytion: <p > <span className='text-sm text-rose-500'>Assistant Professor </span> <br /> Department of Computer Science & Engineering</p>,
+            profile: jaman,
+            bio: <p>
+                Dr. Mohammad Shidujaman currently working as an Assistant Professor in the Department of Computer Science and Engineering (CSE) School of Engineering, Technology and Science (SETS), Independent University, Bangladesh (IUB), Dhaka, Bangladesh. His research interests include Creativity and Innovation, Robotics and AI for Society, Human-Machine Interaction, AI Ethics and Policy, Social Robotics, Design Research, Cognitive Psychology, Cross-Cultural Design, User-Centered Design/Human-Centric Computing and Behavioral Analytics, Assistive Technology in Education, Healthcare and Entertainment, New Interaction Paradigm, Anthropomorphism, Wireless Power Transmission, Traveling Salesman Problem etc.
+                <br />
+                As a roboticist, He has no dought that Human-Robot Interaction going to transform the whole technological world very soon, His present research focuses on AI-Driven emotion-based Human-Machine Interaction (HMI) in a complex scenario. Devices with autonomous mobility (robots) can be used for various interesting applications in-home or office environments. His model based on human-robot interaction with emotional attachment is to carry out the novel artistic relation with such a new technology. The end goal is how we can create and develop HRI technologies in a more systematic and impactful way, such that the developed technologies will have an immediate impact and practical applications to solve daily imperative-demanding social problems.
+                <br />
 
-                Expertise:
-                1. Arduino Coding: I am proficient in writing and debugging Arduino code, enabling me to program the rover's onboard systems, sensors, and actuators. My coding skills extend to efficiently controlling the rover's movements, data collection, and autonomous decision-making algorithms.
+                He is actively serving IEEE Region 10 Humanitarian Technology Activities (IEEE R10 HTA) and IEEE Robotics and Automation Society Technical Committee on Cognitive Robotics (IEEE RAS TC CR) as a committee member. He is also serving various robotics and design-related journals and conferences as an editorial board member, organizing committee member, workshop organizer, and reviewer.
+                <br />
 
-                2. Soldering: With a keen eye for detail and precision, I am adept at soldering delicate electronic components. This skill is crucial for assembling and maintaining the rover's electrical systems and ensuring their reliability in the harsh conditions of Mars.
+                Besides academia, he has also experience working with the industry like Autonomous Vehicle Company iDriverplas as an R&D Engineer which specializes in technological innovation and product development in the field of intelligent vehicles, and with Discovery Communications ltd. as an IT Manager.
+                <br />
 
-                3. PCB Designing: I possess a solid understanding of PCB design principles, which allows me to create custom circuit boards tailored to the mission's specific requirements. My designs focus on compactness, efficiency, and durability to withstand the challenges of space exploration.
-
-                4. Mechanical Work: In addition to my electrical expertise, I have hands-on experience in mechanical tasks, including designing and building mechanical components. This knowledge comes in handy during rover assembly, testing, and any repairs or modifications needed during the mission.
-
-                Contributions to the Mars Rover Mission:
-                1. Rover System Integration: As a key member of the team, I played a vital role in integrating various systems of the Mars rover. I ensured seamless communication and collaboration between the electrical, mechanical, and software components, resulting in a fully functional and cohesive rover.
-
-                2. Autonomous Navigation: Leveraging my Arduino coding skills, I contributed to the development of autonomous navigation algorithms. These algorithms allowed the rover to navigate the Martian terrain independently while avoiding obstacles and optimizing its path to achieve mission objectives.
-
-                3. Custom PCB Development: I designed and fabricated specialized PCBs to meet the unique requirements of the mission. These custom boards enhanced the rover's efficiency, reduced power consumption, and improved its data processing capabilities.
-
-                4. Field Testing and Troubleshooting: Throughout the mission's development and testing phases, I actively participated in field trials to validate the rover's performance. I used my soldering and mechanical skills to address any issues or malfunctions promptly, ensuring the rover's readiness for the actual Mars mission.
-
-                5. Mission Success: As a dedicated member of the team, my passion for robotics and electrical engineering was evident in every aspect of the Mars rover mission. Together with the team, I celebrated the successful deployment of the rover on Mars, knowing that my contributions were instrumental in advancing human knowledge and exploration beyond Earth.
-
-                Overall, my expertise in Arduino coding, soldering, PCB designing, and mechanical work made me an invaluable asset to the Mars rover mission, and I eagerly look forward to more opportunities to contribute to groundbreaking projects in the future.
-"`,
+                Dr. Jaman is a member of IEEE, ACM, IEB, CIEHF.
+            </p>,
             contact: {
-                phone: "01842723564",
-                email: "parvezdipu1509@gmail.com",
-                linkedin: "https://www.linkedin.com/in/parvez-sultan-245143229",
+                phone: "",
+                email: "shidujaman@iub.edu.bd",
+                linkedin: "https://www.linkedin.com/in/mohammad-shidujaman-phd-104a2848/",
                 website: "",
-                github: "https://github.com/parvezsultandipu"
+                github: "https://github.com/parvezsultandipu",
+                researchGate: "https://www.researchgate.net/profile/Mohammad-Shidujaman"
             }
 
         }
     ]
     const teamLeaders = [
+
+    ]
+
+    const attendants = [
         {
             name: "Md. Fayed Al Monir",
             mainrole: "Mechanical Team",
@@ -66,7 +67,8 @@ const Team = () => {
                 email: "suadfayed28@gmail.com",
                 linkedin: "https://www.linkedin.com/in/fayed-al-monir/",
                 website: "",
-                github: "https://github.com/suadfayed"
+                github: "https://github.com/suadfayed",
+                researchGate: ""
             }
 
         },
@@ -115,13 +117,49 @@ const Team = () => {
                 email: "attendantarno@gmail.com",
                 linkedin: "https://ca.linkedin.com/in/samiun-mahmud-arno-5ba300189",
                 website: "https://samiunarno.github.io/samiunarnopro/",
-                github: "https://github.com/samiunarno"
+                github: "https://github.com/samiunarno",
+                researchGate: ""
             }
 
-        }
-    ]
+        },
+        {
+            name: "Mahmudul Hasan",
+            mainrole: "Software Team",
+            role: "Software Team, Mechanical Team, Electrical Team",
+            profile: mahmudul,
+            education: "BSc. Computer Science & Engineering at Independent Univesity,  Bangladesh.",
+            bio: <p>I am a dedicated MERN stack developer and robotics enthusiast on an exciting journey of learning and innovation. Currently pursuing a BSc. in Computer Science and Engineering at Independent University, Bangladesh, I am adept in harnessing the power of JavaScript, Java, Python, HTML, CSS, Arduino, and C++.<br /> <br />
+                With a keen interest in robotics, I am constantly immersed in captivating projects that fuse technology and creativity. My love for building both virtual and physical worlds drives my commitment to mastering web development and robotics. As I evolve, I look forward to bringing these passions to life and contributing to the ever-evolving realm of technology.
+                <br />
+                <br />
 
-    const attendants = [
+                Thank you for visiting, and I invite you to explore the convergence of my web development and robotics endeavors.</p>,
+            experience: "Sucessfully done 8 MERN stake website and workded on several  Robotics Projects like RC, Soccer bot, Line follower Robot, Maze solver etc. ",
+            skills:
+                <span className='flex justify-around'>
+                    <ul className='ml-3'>
+                        <li >1. MERN</li>
+                        <li >2. Illustrator </li>
+                        <li >3. Communication</li>
+                        <li >4. Auto Desk (Fussion 360)</li>
+                    </ul>
+                    <ul className='ml-3'>
+                        <li >5. Arduino</li>
+                        <li >6. PCB Design</li>
+                        <li >7. Basic Electronics</li>
+                    </ul>
+                </span>,
+            contribution: ``,
+            contact: {
+                phone: "+8801571382855",
+                email: "work.mahmudulhasan@gmail.com",
+                linkedin: "https://www.linkedin.com/in/mahmudul-hasan-030a31228/",
+                website: "https://portfolio-32df2.web.app/",
+                github: "https://github.com/wanna-be-pro",
+                researchGate: "https://www.researchgate.net/profile/Mahmudul-Hasan-133"
+            }
+
+        },
         {
             name: "JOTIRMOY MOLLICK",
             mainrole: "Software Team",
@@ -143,7 +181,8 @@ As a team player and a problem solver, Jotirmoy continues to contribute signific
                 email: "jotirmoymollick@gmail.com",
                 linkedin: "https://www.linkedin.com/in/jotirmoy-mollick-b67865240",
                 website: "",
-                github: "https://github.com/Jotimoy"
+                github: "https://github.com/Jotimoy",
+                researchGate: ""
             }
 
         },
@@ -159,87 +198,199 @@ As a team player and a problem solver, Jotirmoy continues to contribute signific
             skills: "I am a team player, self motivated, effective communicator. I know many programming languages and I have build many websites and mobile apps and hardware projects.",
             contribution: `I am helping in mechanical and science team's mechanical part to build the rover and work properly.`,
             contact: {
-                phone: "01738805546",
+
                 email: "tunisha.bristy@gmail.com",
                 linkedin: "https://www.linkedin.com/in/tunisha-yanoor-bristy-246630230/",
                 website: "https://app.netlify.com/teams/tunisha-bristy/overview",
-                github: "https://github.com/Tunisha-Bristy "
+                github: "https://github.com/Tunisha-Bristy ",
+                researchGate: ""
             }
 
         },
         {
-            name: "Tunisha Yanoor Bristy",
+            name: "Mohammad Arshad Hossain Ratul",
             mainrole: "Mechanical Team",
             role: "Mechanical Team, Science Team",
-            profile: tunisha,
+            profile: ratul,
 
-            education: "completed  O level and A level in science background. currently studying CSE at IUB.",
-            bio: `I am from CSE department and I have been helping and doing work on mechanical and science team. I was present at all the workshops and I have helped the mechanical team to dismantle and re-build version 2. I will completely help with my skills to make version 3 better and innovative.`,
-            experience: "I have worked on both hardware and software projects such as Soft robotic hand gripper, blind stick, autonomous maze solver, soccer bot. I have made mobile apps and websites using django, flutter, php and many more languages.",
-            skills: "I am a team player, self motivated, effective communicator. I know many programming languages and I have build many websites and mobile apps and hardware projects.",
+            education: "A-level form Maple Leaf International School and O-level from Academia School",
+            bio: `I am a robot enthusiast who likes to make and play with robots. I have expertise on making robots like autonomous maze solver, soccer bot, RC racing bots and robotic arm, my previous experiences taught me to innovate ideas and improve the performance of the robot . I am also a professional teacher of physics and biology which gives me more knowledge of how mechanical parts will move and the how the science tasks are done. `,
+            experience: "Worked on many hardware projects like autonomous maze solver, soccer bot, rc bot and robotic arm.",
+            skills: "Critical thinking, Handling mechanical instruments and research on any part of the rover.",
             contribution: `I am helping in mechanical and science team's mechanical part to build the rover and work properly.`,
             contact: {
-                phone: "01738805546",
-                email: "tunisha.bristy@gmail.com",
-                linkedin: "https://www.linkedin.com/in/tunisha-yanoor-bristy-246630230/",
-                website: "https://app.netlify.com/teams/tunisha-bristy/overview",
-                github: "https://github.com/Tunisha-Bristy "
+                phone: "01841501748",
+                email: "ratularshad@gmail.com",
+                linkedin: "https://www.linkedin.com/in/mohammad-arshad-hossain-ratul-727b311aa/",
+                website: "https://mycvratul.netlify.app",
+                github: "https://github.com/ArshadRatul",
+                researchGate: ""
             }
 
         },
+        {
+            name: "Mehejabine Islam Momo",
+            mainrole: "Science Team",
+            role: "Science Team",
+            profile: mehjabeen,
+
+            bio: `An undergrad student majoring in biochemistry and biotechnology. Enthusiastic and passionate about research. Worked in content writing, publication coordinating, social media coordinating, and event management. Contributing to the part of research paper and publication writing for the Mars rover team. `,
+            education: "BSc. in Biochemistry and Biotechnology at Independent University, Bangladesh",
+            experience: "Have done thesis in isolating bacteriophages from water samples and characterizing them.",
+            skills: "Content writing, Social media coordinating, event management.",
+            contribution: `Researched and analyzed the tests done by the science teams in the previous year, researched and analyzed the tests that can be done for the science mission, and finalized the 4 main parts of the science mission test. `,
+            contact: {
+                phone: "01620776688",
+                email: "momomehejabin05@gmail.com",
+                linkedin: "https://www.linkedin.com/in/mehejabin-islam-67817821a/",
+                website: "",
+                github: "https://github.com/Mehejabine",
+                researchGate: ""
+            }
+
+        },
+        {
+            name: "Shafkat Alam Ferdous",
+            mainrole: "Science Team",
+            role: "Science Team",
+            profile: Ferdous,
+
+            bio: `For having a biology background education, I can lend my expertise for finding the biological factors whether if there was or currently any signs of life in Mars by conducting a series of tests and providing logical answers by these tests.`,
+            education: "Currently studying Biotechnology and Biochemistry in Independent University, Bangladesh.",
+            experience: "Have done thesis in isolating bacteriophages from water samples and characterizing them.",
+            skills: "Molecular Biology & Microbiological techniques, Bioinformatics tools.",
+            contribution: `As the science team member, I will calibrate and analyze the data that will be detected by the rover if there is life or not within the soil samples and give proper explanation what was detected from the tests. `,
+            contact: {
+                phone: "01957527113",
+                email: "shafkatalam1998@gmail.com",
+                linkedin: "https://www.linkedin.com/in/shafkat-alam-731306247/",
+                website: "",
+                github: "https://github.com/ShafkatAF",
+                researchGate: ""
+            }
+
+        },
+        {
+            name: "Mohammad Nahid Al Islam",
+            mainrole: "Science Team",
+            role: "Science Team",
+            profile: nahid,
+
+            bio: `As a senior Biochemistry and Biotechnology student at Independent University, Bangladesh, my passion for science and creativity drives my involvement with TEAM ATTENDANT, IUB, in the University Rover Challenge's Science Mission Task. With a strong grasp of experimental techniques and molecular biology, I am well-equipped to contribute effectively.
+
+My roles as Content Moderator and Managing Editor within IUB's STEM community, along with my YouTube channel "Nahid bujhai," demonstrate my ability to simplify intricate scientific concepts. I possess adept research and documentation skills, essential for navigating research articles during mission construction. Proficient in life detection tests, geographical data analysis, and Science Mission User Interface design, I am committed to advancing exploration.
+
+My presentation skills and collaborative nature further enhance the University Rover Challenge's prospects. I am poised to represent Independent University, Bangladesh, internationally, embodying a dedication to discovery and innovation.`,
+            education: "Currently studying Biotechnology and Biochemistry in Independent University, Bangladesh.",
+            experience: "As the founding director of the STEM community at Independent University, Bangladesh (IUB), I have contributed to establishing an independent nonprofit initiative that fosters a vibrant community of students passionate about science, technology, engineering, and mathematics (STEM). Our mission is to connect and develop like-minded individuals, providing them with a platform to explore their interests, collaborate on innovative projects, and engage in impactful initiatives. Through various workshops, seminars, and interactive sessions, we have nurtured a culture of curiosity and learning, inspiring the next generation of STEM enthusiasts.  In parallel with my dedication to the STEM community IUB, I have actively engaged in groundbreaking research for my senior project, focusing on the molecular detection and extraction of an anti-cancer protein from a pathogenic bacterial strain. This ambitious endeavor is being conducted in close collaboration with BRAC University, and the lab work takes place at the state-of-the-art Life Sciences laboratory at Independent University, Bangladesh. This research not only showcases my commitment to advancing scientific knowledge but also demonstrates my ability to thrive in multidisciplinary collaborations, where innovative ideas and expertise converge to address critical challenges in the field of biochemistry and biotechnology.",
+            skills: "Microsoft Office Suite, Content Creation, Teaching, Literature Review, Laboratory Skills for Life Detection tests and assays, Teamwork and Collaboration",
+            contribution: `"Science Team
+- Set up Life detection tests and assays
+- Capture and analyze geographic information
+- Design Science mission feedback user interface
+- Prepare Presentation of Science mission
+- Document Scientific work and aid in literature work"`,
+            contact: {
+                phone: "+8801770322788",
+                email: "mohammadnahid247gmail.com",
+                linkedin: "https://www.linkedin.com/in/mohammad-nahid-al-islam-344829268",
+                website: "https://www.stemiub.online/team/mohammad-nahid-al-islam",
+                github: "https://github.com/247nahid",
+                researchGate: ""
+            }
+
+        },
+        {
+            name: "Md.Parvez sultan ",
+            mainrole: "Electrical Team",
+            role: "Electrical Team",
+            profile: parveg,
+
+            bio: <p> As an electrical engineering student, I have a strong foundation in various aspects of electronics and robotics. I have also gained expertise in arduino coding, soldering, PCB designing, mechanical chassis designing which have equipped me with a versatile skill set essential for contributing to the Mars rover mission.
+
+                Expertise:
+
+                <ul className='ml-3'>
+                    <li>1. Arduino Coding: I am proficient in writing and debugging Arduino code, enabling me to program the rover's onboard systems, sensors, and actuators. My coding skills extend to efficiently controlling the rover's movements, data collection, and autonomous decision-making algorithms.</li>
+                    <li>2. Soldering: With a keen eye for detail and precision, I am adept at soldering delicate electronic components. This skill is crucial for assembling and maintaining the rover's electrical systems and ensuring their reliability in the harsh conditions of Mars.</li>
+                    <li>3. PCB Designing: I possess a solid understanding of PCB design principles, which allows me to create custom circuit boards tailored to the mission's specific requirements. My designs focus on compactness, efficiency, and durability to withstand the challenges of space exploration.</li>
+                    <li>4. Mechanical Work: In addition to my electrical expertise, I have hands-on experience in mechanical tasks, including designing and building mechanical components. This knowledge comes in handy during rover assembly, testing, and any repairs or modifications needed during the mission.</li>
+                    Contributions to the Mars Rover Mission:
+                    <li>1. Rover System Integration: As a key member of the team, I played a vital role in integrating various systems of the Mars rover. I ensured seamless communication and collaboration between the electrical, mechanical, and software components, resulting in a fully functional and cohesive rover.</li>
+                    <li>2. Autonomous Navigation: Leveraging my Arduino coding skills, I contributed to the development of autonomous navigation algorithms. These algorithms allowed the rover to navigate the Martian terrain independently while avoiding obstacles and optimizing its path to achieve mission objectives.</li>
+                    <li>3. Custom PCB Development: I designed and fabricated specialized PCBs to meet the unique requirements of the mission. These custom boards enhanced the rover's efficiency, reduced power consumption, and improved its data processing capabilities.</li>
+                    <li>4. Field Testing and Troubleshooting: Throughout the mission's development and testing phases, I actively participated in field trials to validate the rover's performance. I used my soldering and mechanical skills to address any issues or malfunctions promptly, ensuring the rover's readiness for the actual Mars mission.</li>
+                    <li>5. Mission Success: As a dedicated member of the team, my passion for robotics and electrical engineering was evident in every aspect of the Mars rover mission. Together with the team, I celebrated the successful deployment of the rover on Mars, knowing that my contributions were instrumental in advancing human knowledge and exploration beyond Earth.</li>
+                </ul>
+
+
+                Overall, my expertise in Arduino coding, soldering, PCB designing, and mechanical work made me an invaluable asset to the Mars rover mission, and I eagerly look forward to more opportunities to contribute to groundbreaking projects in the future.</p>
+            ,
+            education: "major : Electrical and Electronic Engineering  at Independent University, Bangladesh",
+            experience: "my  relevant professional experience 1.participate in 40plus universities Robotics competition 2. successfully completed robotics and automation course 1st 1nd 2nd stage ( Bangladesh Robo camp) 3. vice-chair of robotics and automation society IEEE IUB SBC ( current) 4. treasurer of robotics and automation society IEEE IUB SBC( 2022) 5. research and development director ACM IUB (CURRENT) 6. making various kind of project( Rc car, soccer bot, pick and place robot, Iot base project ,Lfr etc)",
+            skills: "Skill  1.	arduino coding 2.	basic Python and C plus plus 3.	PCB designing 4.	basic of 3D modelling 5.	proper knowledge of electronics component 6.	any kind of electrical circuit making 7.	power and motor controlling 8.	simulation 9.	basic of autocad 10.	power drives and power control ",
+            contribution: `"As an electrical engineering student, I have a strong foundation in various aspects of electronics and robotics. I have also gained expertise in arduino coding, soldering, PCB designing, mechanical chassis designing which have equipped me with a versatile skill set essential for contributing to the Mars rover mission.
+Rover System Integration: As a key member of the team, I played a vital role in integrating various systems of the Mars rover. I ensured seamless communication and collaboration between the electrical, mechanical, and software components, resulting in a fully functional and cohesive rover.
+Autonomous Navigation: Leveraging my Arduino coding skills, I contributed to the development of autonomous navigation algorithms. These algorithms allowed the rover to navigate the Martian terrain independently while avoiding obstacles and optimizing its path to achieve mission objectives."`,
+            contact: {
+                phone: "01842723564",
+                email: "parvezdipu1509@gmail.com",
+                linkedin: "https://www.linkedin.com/in/parvez-sultan-245143229",
+                website: "",
+                github: "https://github.com/parvezsultandipu",
+                researchGate: ""
+            }
+
+        },
+
     ]
     return (
         <>
-
-
-            {/* team Leaders */}
-            <h1 className="text-xl font-bold text-center mt-10">Team Leaders</h1>
             <section className='px-5 flex justify-evenly  gap-5 flex-wrap py-5'>
+                {/* Advisors  */}
                 {
-                    teamLeaders.map((leader, i) => <>
-                        <div key={i} tabIndex={1} className="collapse h-fit relative bg-red-50 lg:w-[40%] md:w-[45%] sm:w-full">
+                    advisors.map((advisor, i) => <>
+
+                        <div tabIndex={1} className="collapse h-fit relative bg-red-50 lg:w-[550px] md:w-[45%] sm:w-full">
                             <div className="collapse-title lg:items-start font-medium flex lg:flex-row md:flex-col sm:flex-col md:items-center sm:items-center justify-center">
                                 <div className="avatar">
                                     <div className="w-40 rounded ">
-                                        <img src={leader.profile} className="w-full mx-auto" alt={leader.profile} />
+                                        <img src={advisor.profile} className="w-full mx-auto" alt="jotirmoy" />
                                     </div>
                                 </div>
                                 <div className="ml-5 mt-2 text-center">
-                                    <h1 className='uppercase text-xl '>{leader.name}</h1>
-                                    <p className='text-sm text-rose-500'>{leader.mainrole}</p>
-                                    <p className=' text-sm'>{leader.education}</p>
+                                    <h1 className='uppercase text-xl '>{advisor.name}</h1>
+                                    <p >{advisor.designaytion}</p>
+                                    <p className=' text-sm'>{advisor.education}</p>
                                     <div className="flex justify-evenly w-52 mt-5 text-xl mx-auto">
-                                        <a href={`tel:${leader.contact.phone}`}><AiFillPhone /></a>
-                                        <a href={`mailto:${leader.contact.email}`}><BiLogoGmail /></a>
-                                        <a href={`${leader.contact.github}`}><AiOutlineGithub /></a>
-                                        <a href={`${leader.contact.linkedin}`}><BiLogoLinkedin /></a>
+                                        <a href={`mailto:${advisor.contact.email}`}><BiLogoGmail /></a>
+                                        <a href={`${advisor.contact.github}`}><AiOutlineGithub /></a>
+                                        <a href={`${advisor.contact.linkedin}`}><BiLogoLinkedin /></a>
+                                        <a href={`${advisor.contact.researchGate}`}><LiaResearchgate /></a>
                                     </div>
                                 </div>
                             </div>
                             <div className="collapse-content border-t-2 pt-2">
 
-                                <p className="text-rose-500">Role/Position:  <span className='text-black'>{leader.role}</span></p> <br />
-                                <p className="text-rose-500">Experience:  <span className='text-black'>{leader.experience}</span></p> <br />
-                                <p className="text-rose-500">Skills:  <span className='text-black'>{leader.skills}</span></p> <br />
-                                <p className="text-rose-500">Biography:  <span className='text-black'>{leader.bio}</span></p> <br />
-                                <p className="text-rose-500">Contributions to the Mission:  <span className='text-black'>{leader.contribution}</span></p> <br />
+                                <p className="text-rose-500">Biography:  <span className='text-black'>{advisor.bio}</span></p> <br />
+                                {/* <p className="text-rose-500">Contributions to the Mission:  <span className='text-black'>{attendant.contribution}</span></p> <br /> */}
 
 
                             </div>
                         </div>
+
                     </>)
                 }
             </section>
-
             <h1 className="text-xl font-bold text-center mt-10">Team Members</h1>
             <section className='px-5 flex justify-evenly  gap-5 flex-wrap py-5'>
 
                 {
                     attendants.map((attendant, i) => <>
-                        <div tabIndex={1} className="collapse h-fit relative bg-red-50 lg:w-[40%] md:w-[45%] sm:w-full">
+                        <div tabIndex={1} className="collapse h-fit relative bg-red-50 lg:w-[550px] md:w-[45%] sm:w-full">
                             <div className="collapse-title lg:items-start font-medium flex lg:flex-row md:flex-col sm:flex-col md:items-center sm:items-center justify-center">
                                 <div className="avatar">
-                                    <div className="w-40 rounded ">
+                                    <div className="w-40  rounded ">
                                         <img src={attendant.profile} className="w-full mx-auto" alt="jotirmoy" />
                                     </div>
                                 </div>
@@ -248,20 +399,21 @@ As a team player and a problem solver, Jotirmoy continues to contribute signific
                                     <p className='text-sm text-rose-500'>{attendant.mainrole}</p>
                                     <p className=' text-sm'>{attendant.education}</p>
                                     <div className="flex justify-evenly w-52 mt-5 text-xl mx-auto">
-                                        <a href={`tel:${attendant.contact.phone}`}><AiFillPhone /></a>
                                         <a href={`mailto:${attendant.contact.email}`}><BiLogoGmail /></a>
                                         <a href={`${attendant.contact.github}`}><AiOutlineGithub /></a>
                                         <a href={`${attendant.contact.linkedin}`}><BiLogoLinkedin /></a>
+                                        <a href={`${attendant.contact.researchGate}`}><LiaResearchgate /></a>
+
                                     </div>
                                 </div>
                             </div>
                             <div className="collapse-content border-t-2 pt-2">
 
-                                <p className="text-rose-500">Role/Position:  <span className='text-black'>{attendant.role}</span></p> <br />
+                                <p className="text-rose-500">Position:  <span className='text-black'>{attendant.role}</span></p> <br />
                                 <p className="text-rose-500">Experience:  <span className='text-black'>{attendant.experience}</span></p> <br />
                                 <p className="text-rose-500">Skills:  <span className='text-black'>{attendant.skills}</span></p> <br />
-                                <p className="text-rose-500">Biography/Summary:  <span className='text-black'>{attendant.bio}</span></p> <br />
-                                <p className="text-rose-500">Contributions to the Mission:  <span className='text-black'>{attendant.contribution}</span></p> <br />
+                                <p className="text-rose-500">Biography:  <span className='text-black'>{attendant.bio}</span></p> <br />
+                                {/* <p className="text-rose-500">Contributions to the Mission:  <span className='text-black'>{attendant.contribution}</span></p> <br /> */}
 
 
                             </div>
